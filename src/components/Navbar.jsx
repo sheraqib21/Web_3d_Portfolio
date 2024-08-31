@@ -42,10 +42,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img
+            src={logo}
+            alt='logo'
+            // className='w-20 h-20 object-contain'
+            style={{ marginRight: "-4px",width: "70px", height: "70px" }} // Adjust margin to move the logo right
+          />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Flynn &nbsp;
+            <span className='sm:block hidden'> | Android & Web App Development</span>
           </p>
         </Link>
 
@@ -62,6 +67,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -95,6 +101,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {/* <a href="#team"></a> */}
     </nav>
   );
 };

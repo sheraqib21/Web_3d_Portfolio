@@ -38,24 +38,28 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "team",
+    title: "Our Team",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "App Deveopment",
+    icon: creator,
+  },
+  {
+    title: "React Native Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,37 +120,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack development",
+    company_name: "ELEVEN",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a mindfulness app with daily wellness tasks for mental and physical health.",
+
+      "Added features for users to customize gym routines and exercise routes.",
+
+      "Designed a user-friendly interface to encourage regular mindfulness and exercise.",
+
+
+      "Integrated tracking for monitoring progress and providing motivational feedback."
+    
     ],
+    
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "CurioKids",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2021 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained a mobile app for CurioKids, focusing on personalized learning experiences for children.",
+      "Integrated AI-driven features, including interactive teaching and quizzes, to enhance educational engagement.",
+      "Collaborated with designers and educators to create a user-friendly interface that supports diverse learning styles.",
+      "Optimized app performance and user experience across multiple devices and platforms using React Native.",
+
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "FunPulse",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2023 -  Aug 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,25 +165,25 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Our web platform needed a major overhaul, and Flynn delivered exactly what we needed. The site is now faster, more intuitive, and more user friendly.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,30 +191,31 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Flynn helped us launch our mindfulness app on time and within budget. Their team was always available for feedback and made sure everything was perfect before launch.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "CTO",
+    company: "ELEVEN",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Flynn’s developers were skilled and great to work with. They helped us turn our ideas into a functional, attractive app that users find valuable, informative, and easy to use.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Budget and Finance App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile app that allows users to track, manage, and optimize their finances, providing a simple and effective solution for budgeting and financial planning.",
     tags: [
       {
-        name: "react",
+        name: "Mern stack",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +223,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node .js",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sheraqib21/Budgeting-and-finance-Complete-",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce Webapp ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to browse products, add items to their cart, and securely complete purchases, providing a seamless online shopping experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Next.js",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/aye-shadow",
   },
   {
-    name: "Trip Guide",
+    name: "CurioKids",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A personalized learning platform for kids that uses AI to provide interactive teaching, quizzes, and a rich library of educational content, tailored to each student's needs.",
     tags: [
       {
-        name: "nextjs",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "TypeScript",
+        color: "pink-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "PostgreSQL ",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/aye-shadow/curiokids",
   },
 ];
 

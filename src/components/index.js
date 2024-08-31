@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import Team from "./team";
 import CanvasLoader from "./Loader";
 
 
@@ -15,9 +16,10 @@ export {
   Navbar,
   About,
   Tech,
+  Team,
   Experience,
   Works,
-  Feedbacks,
+  // Feedbacks,
   Contact,
   CanvasLoader,
   EarthCanvas, 
