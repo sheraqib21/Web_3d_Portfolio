@@ -48,9 +48,9 @@ const Navbar = () => {
             // className='w-20 h-20 object-contain'
             style={{ marginRight: "-4px",width: "70px", height: "70px" }} // Adjust margin to move the logo right
           />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[30px] font-bold cursor-pointer flex '>
             Flynn &nbsp;
-            <span className='sm:block hidden'> | Android & Web App Development</span>
+            <span className='sm:block hidden'> </span>
           </p>
         </Link>
 
